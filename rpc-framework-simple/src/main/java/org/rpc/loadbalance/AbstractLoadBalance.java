@@ -1,4 +1,4 @@
-package org.rpc.loadbalancer;
+package org.rpc.loadbalance;
 
 import org.rpc.remoting.dto.RpcRequest;
 import org.rpc.utils.CollectionUtil;

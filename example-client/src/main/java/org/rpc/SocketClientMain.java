@@ -1,4 +1,4 @@
-package org.rpc.framework;
+package org.rpc;
 
 
 import org.rpc.config.RpcServiceConfig;

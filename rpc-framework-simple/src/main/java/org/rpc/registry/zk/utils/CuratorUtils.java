@@ -1,4 +1,4 @@
-package org.rpc.register.zookeeper.utils;
+package org.rpc.registry.zk.utils;
 
 import org.rpc.enums.RpcConfigEnum;
 import org.rpc.utils.PropertiesFileUtil;

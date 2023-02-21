@@ -14,7 +14,7 @@ import org.rpc.enums.CompressTypeEnum;
 import org.rpc.enums.SerializationTypeEnum;
 import org.rpc.extension.ExtensionLoader;
 import org.rpc.factory.SingletonFactory;
-import org.rpc.register.ServiceDiscovery;
+import org.rpc.registry.ServiceDiscovery;
 import org.rpc.remoting.constants.RpcConstants;
 import org.rpc.remoting.dto.RpcMessage;
 import org.rpc.remoting.dto.RpcRequest;
@@ -110,7 +110,6 @@ public class NettyRpcClient  implements RpcRequestTransport {
         }
         return resultFuture;
     }
-
     /**
      * 获取与服务地址相关的Channel
      * @param inetSocketAddress
@@ -125,7 +124,6 @@ public class NettyRpcClient  implements RpcRequestTransport {
         }
         return channel;
     }
-
     public void close() {
         eventLoopGroup.shutdownGracefully();
     }

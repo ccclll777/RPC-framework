@@ -1,4 +1,4 @@
-package org.rpc.loadbalancer;
+package org.rpc.loadbalance;
 
 import org.rpc.extension.SPI;
 import org.rpc.remoting.dto.RpcRequest;

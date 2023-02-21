@@ -1,8 +1,8 @@
-package org.rpc.register.zookeeper;
+package org.rpc.registry.zk;
 
 import org.apache.curator.framework.CuratorFramework;
-import org.rpc.register.ServiceRegistry;
-import org.rpc.register.zookeeper.utils.CuratorUtils;
+import org.rpc.registry.ServiceRegistry;
+import org.rpc.registry.zk.utils.CuratorUtils;
 
 import java.net.InetSocketAddress;
 /*

@@ -1,4 +1,4 @@
-package org.rpc.register;
+package org.rpc.registry;
 
 import org.rpc.extension.SPI;
 import org.rpc.remoting.dto.RpcRequest;

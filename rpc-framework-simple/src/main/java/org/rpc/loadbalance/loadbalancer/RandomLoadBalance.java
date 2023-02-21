@@ -1,8 +1,8 @@
-package org.rpc.loadbalancer.loadbalancer;
+package org.rpc.loadbalance.loadbalancer;
 
 
 
-import org.rpc.loadbalancer.AbstractLoadBalance;
+import org.rpc.loadbalance.AbstractLoadBalance;
 import org.rpc.remoting.dto.RpcRequest;
 
 import java.util.List;

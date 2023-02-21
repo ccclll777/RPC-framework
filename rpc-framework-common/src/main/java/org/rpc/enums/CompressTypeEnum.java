@@ -3,10 +3,7 @@ package org.rpc.enums;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 
-/**
- * @author wangtao .
- * @createTime on 2020/10/2
- */
+
 @AllArgsConstructor
 @Getter
 public enum CompressTypeEnum {

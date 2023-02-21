@@ -1,5 +1,8 @@
 package org.rpc.annotation;
 
+import org.rpc.spring.CustomScannerRegistrar;
+import org.springframework.context.annotation.Import;
+
 import java.lang.annotation.*;
 
 /**
@@ -10,7 +13,7 @@ import java.lang.annotation.*;
  */
 @Target({ElementType.TYPE, ElementType.METHOD})
 @Retention(RetentionPolicy.RUNTIME)
-//@Import(CustomScannerRegistrar.class)
+@Import(CustomScannerRegistrar.class)
 @Documented
 public @interface RpcScan {
 

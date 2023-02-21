@@ -1,9 +1,9 @@
-package org.rpc.framework.serviceImpl;
+package org.rpc.serviceImpl;
 
 import lombok.extern.slf4j.Slf4j;
 import org.rpc.annotation.RpcService;
-import org.rpc.framework.Hello;
-import org.rpc.framework.HelloService;
+import org.rpc.Hello;
+import org.rpc.HelloService;
 
 /**
  *

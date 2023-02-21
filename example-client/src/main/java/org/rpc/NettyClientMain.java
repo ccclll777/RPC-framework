@@ -1,4 +1,4 @@
-package org.rpc.framework;
+package org.rpc;
 
 
 import org.rpc.annotation.RpcScan;
@@ -8,7 +8,7 @@ import org.springframework.context.annotation.AnnotationConfigApplicationContext
  * @author shuang.kou
  * @createTime 2020年05月10日 07:25:00
  */
-@RpcScan(basePackage = {"github.javaguide"})
+@RpcScan(basePackage = {"org.rpc"})
 public class NettyClientMain {
     public static void main(String[] args) throws InterruptedException {
         AnnotationConfigApplicationContext applicationContext = new AnnotationConfigApplicationContext(NettyClientMain.class);

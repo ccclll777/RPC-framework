@@ -4,7 +4,7 @@ import lombok.AllArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.rpc.exception.RpcException;
 import org.rpc.extension.ExtensionLoader;
-import org.rpc.register.ServiceDiscovery;
+import org.rpc.registry.ServiceDiscovery;
 import org.rpc.remoting.dto.RpcRequest;
 import org.rpc.remoting.transport.RpcRequestTransport;
 

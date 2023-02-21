@@ -1,6 +1,6 @@
 import org.rpc.config.RpcServiceConfig;
-import org.rpc.framework.HelloService;
-import org.rpc.framework.serviceImpl.HelloServiceImpl;
+import org.rpc.HelloService;
+import org.rpc.serviceImpl.HelloServiceImpl;
 import org.rpc.remoting.transport.socket.SocketRpcServer;
 
 /**

@@ -1,12 +1,9 @@
-package org.rpc.framework;
+package org.rpc;
 
 
 import org.rpc.annotation.RpcReference;
 import org.springframework.stereotype.Component;
 
-/**
- * @author smile2coder
- */
 @Component
 public class HelloController {
 

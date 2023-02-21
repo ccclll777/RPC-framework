@@ -1,8 +1,8 @@
 
 import org.rpc.annotation.RpcScan;
 import org.rpc.config.RpcServiceConfig;
-import org.rpc.framework.HelloService;
-import org.rpc.framework.serviceImpl.HelloServiceImpl2;
+import org.rpc.HelloService;
+import org.rpc.serviceImpl.HelloServiceImpl2;
 import org.rpc.remoting.transport.netty.server.NettyRpcServer;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
@@ -12,7 +12,7 @@ import org.springframework.context.annotation.AnnotationConfigApplicationContext
  * @author shuang.kou
  * @createTime 2020年05月10日 07:25:00
  */
-@RpcScan(basePackage = {"org.rpc.framework"})
+@RpcScan(basePackage = {"org.rpc"})
 public class NettyServerMain {
     public static void main(String[] args) {
         // Register service via annotation

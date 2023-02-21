@@ -6,7 +6,7 @@ import org.rpc.enums.RpcErrorMessageEnum;
 import org.rpc.exception.RpcException;
 import org.rpc.extension.ExtensionLoader;
 import org.rpc.provider.ServiceProvider;
-import org.rpc.register.ServiceRegistry;
+import org.rpc.registry.ServiceRegistry;
 import org.rpc.remoting.transport.netty.server.NettyRpcServer;
 
 import java.net.InetAddress;

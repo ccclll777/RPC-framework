@@ -1,7 +1,7 @@
 package org.rpc.config;
 
-import org.rpc.register.zookeeper.utils.CuratorUtils;
 import lombok.extern.slf4j.Slf4j;
+import org.rpc.registry.zk.utils.CuratorUtils;
 import org.rpc.remoting.transport.netty.server.NettyRpcServer;
 import org.rpc.utils.threadpool.ThreadPoolFactoryUtil;
 

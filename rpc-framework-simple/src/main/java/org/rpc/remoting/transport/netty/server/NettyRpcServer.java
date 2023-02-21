@@ -28,7 +28,7 @@ import java.util.concurrent.TimeUnit;
 @Slf4j
 @Component
 public class NettyRpcServer {
-    public static final int PORT = 9998;
+    public static final int PORT = 19998;
     /*
         单例模式，基于zk的服务发现和服务提供
      */

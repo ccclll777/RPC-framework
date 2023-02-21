@@ -1,0 +1,3 @@
+kyro=org.rpc.serialize.kyro.KryoSerializer
+protostuff=org.rpc.serialize.protostuff.ProtostuffSerializer
+hessian=org.rpc.serialize.hessian.HessianSerializer
